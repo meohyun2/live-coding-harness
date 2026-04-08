@@ -1,0 +1,17 @@
+{
+  "description": "프롬프트 자동 로깅 훅",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "input=$(cat); ts=$(date '+%Y-%m-%d %H:%M:%S'); prompt=$(printf '%s' \"$input\" | /usr/bin/jq -r '.prompt // empty'); [ -n \"$prompt\" ] && printf '\\n## %s\\n\\n%s\\n' \"$ts\" \"$prompt\" >> \"$HOME/harness/prompt-log.md\"",
+            "timeout": 5,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}
