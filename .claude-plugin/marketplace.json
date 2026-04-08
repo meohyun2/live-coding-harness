@@ -9,7 +9,7 @@
     {
       "name": "live-coding-harness",
       "description": "코드베이스 분석·버그 수정·기능 추가·리팩토링·TS 에러 수정·제출 전 리뷰 커맨드 + 프롬프트 자동 로깅",
-      "source": ".",
+      "source": "./",
       "category": "development",
       "license": "MIT",
       "keywords": ["react", "typescript", "live-coding"]
