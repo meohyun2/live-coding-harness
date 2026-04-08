@@ -3,6 +3,7 @@ name: review
 description: 제출 전 변경사항 전체를 검토하고 평가자용 요약을 작성하는 커맨드
 argument-hint: [특정 검토 포커스]
 allowed-tools: [Read, Glob, Grep, Bash]
+user-invocable: true
 ---
 
 # /review $ARGUMENTS

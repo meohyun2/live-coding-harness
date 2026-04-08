@@ -3,6 +3,7 @@ name: fix-ts
 description: TypeScript 에러를 체계적으로 찾아 수정하는 커맨드
 argument-hint: [특정 에러 또는 파일]
 allowed-tools: [Read, Glob, Grep, Bash, Edit]
+user-invocable: true
 ---
 
 # /fix-ts $ARGUMENTS

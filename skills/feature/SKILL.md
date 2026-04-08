@@ -3,6 +3,7 @@ name: feature
 description: 기존 패턴을 따라 새 기능을 코드베이스에 추가하는 커맨드
 argument-hint: <기능 설명>
 allowed-tools: [Read, Glob, Grep, Bash, Edit, Write]
+user-invocable: true
 ---
 
 # /feature $ARGUMENTS

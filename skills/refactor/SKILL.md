@@ -3,6 +3,7 @@ name: refactor
 description: 동작을 유지하면서 코드 품질을 개선하는 리팩토링 커맨드
 argument-hint: <리팩토링 대상>
 allowed-tools: [Read, Glob, Grep, Bash, Edit]
+user-invocable: true
 ---
 
 # /refactor $ARGUMENTS

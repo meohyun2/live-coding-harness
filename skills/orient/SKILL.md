@@ -3,6 +3,7 @@ name: orient
 description: 낯선 코드베이스를 빠르게 파악하기 위한 구조 분석 커맨드
 argument-hint: [분석 포커스]
 allowed-tools: [Read, Glob, Grep, Bash]
+user-invocable: true
 ---
 
 # /orient

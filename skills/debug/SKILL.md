@@ -3,6 +3,7 @@ name: debug
 description: 버그를 체계적으로 원인 추적하고 최소 수정으로 해결하는 커맨드
 argument-hint: <버그 설명>
 allowed-tools: [Read, Glob, Grep, Bash, Edit]
+user-invocable: true
 ---
 
 # /debug $ARGUMENTS
